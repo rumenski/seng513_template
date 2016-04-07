@@ -1,0 +1,52 @@
+body {
+    background-image:url('../img/bg.png');
+    background-repeat:repeat;
+}
+p {
+    margin: 0 0 20px;
+}
+.navbar {
+    background-image:url('../img/bg.png');
+    background-repeat:repeat;
+}
+.jumbotron {
+    background-color: transparent;
+    padding: 70px 0 0 0;
+}
+.footer {
+    margin-top: 40px;
+    padding: 40px 0;
+}
+.event {
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 30px;
+}
+.event + .event {
+    padding-top: 30px;
+}
+.event .date {
+    margin-bottom: 7px;
+    color: #2a6496;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.footer {
+    background: #061D25;
+    padding-top: 10px;
+	padding-bottom: 0px;
+}
+
+.footer a {
+    color: #F9F7F7;
+    font-size: 20px;
+    padding-top: 10px;
+	padding-bottom: 0px;
+    border-right: 1px solid #70726F;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
