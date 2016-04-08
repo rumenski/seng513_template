@@ -50,3 +50,37 @@ p {
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
 }
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.category {
+  font: normal 12px/1 "Oswald", Helvetica, sans-serif;
+  color: #f9200c;
+  text-align: left;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  padding-top: 5px;
+}
+.subcategory {
+	font: normal 10px/0 "Oswald", Helvetica, sans-serif;
+	color: #210d0b;
+	letter-spacing: 1px;
+	padding-left: 10px;
+}
+.classWithPad {
+	padding-left:15px;
+	margin-left:15px;
+}
