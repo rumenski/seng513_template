@@ -80,6 +80,27 @@ p {
 	letter-spacing: 1px;
 	padding-left: 10px;
 }
+.category2 {
+  font: normal 12px/1 "Oswald", Helvetica, sans-serif;
+  color: #B2970E;
+  text-align: left;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+.faq-category {
+  font: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+  font-size:13px;
+  color: #F83639;
+  text-align: left;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  padding-top: 5px;
+  padding-bottom:5px;
+}
 .classWithPad {
 	padding-left:15px;
 	margin-left:15px;
