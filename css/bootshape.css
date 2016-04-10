@@ -81,13 +81,15 @@ p {
 	padding-left: 10px;
 }
 .category2 {
-  font: normal 12px/1 "Oswald", Helvetica, sans-serif;
-  color: #B2970E;
+  font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+  font-size:10px;
+  color: #C99C9D;
   text-align: left;
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
   letter-spacing: 1px;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  margin-top: 0;
 }
 .faq-category {
   font: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
@@ -100,6 +102,31 @@ p {
   text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
   padding-top: 5px;
   padding-bottom:5px;
+}
+.about-title {
+  font: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+  font-size:20px;
+  font-weight:bold;
+  color: black;
+  text-align: left;
+  text-transform:uppercase;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.bold-text{
+  font: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+  font-size:15px;
+  font-weight:bold;
+  color: #6C4041;
+  text-align: left;
+}
+.descriptor {
+  font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+  font-size:14px;
+  color: #D37D7F;
+  text-align: left;
+  font-style:italic !important;
+  padding-bottom: 5px;
 }
 .classWithPad {
 	padding-left:15px;
